@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-feb-2019, 22.34.22
+    Author     : UTENTEHP
+*/
+body {
+  background-color:#000;
+  background-image: url("/TWEB/TWEBproject/img/back.jpg");
+  background-size:90px 90px;
+  background-repeat: repeat-x;
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color:#cccccc;
+  text-align: left;
+}
+a{
+    text-decoration: none;
+}
+#banner{
+  color:#510707;
+
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+  position:relative;
+  color:black;
+  padding: 0.75rem 1.25rem;
+  background-color:#cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  top:9px;
+  margin: 1px;
+}
+.list-inline-item:hover{
+  text-decoration: none;
+  color:#990000;
+}
+.container-fluid {
+  width: 95%;
+  
+  padding-right: 15px;
+  padding-left: 15px;
+  margin:auto;
+  text-align: center;
+  background-color:black;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-sm-3 {
+    -ms-flex: 0 0 25%;
+    top:10px;
+    flex: 0 0 25%;
+    color:#dedede;
+    min-width:108.750px;
+    max-width:263.750px;
+  }
+.col-sm-2 {
+    -ms-flex: 0 0 18%;
+    top:10px;
+    flex: 0 0 25%;
+    color:#dedede;
+    min-width:108.750px;
+    max-width:263.750px;
+  }
+  .col-sm-2 p{
+      color:#990000;
+  }
+  .col-sm-2 a{
+    color:#cccccc;
+  }
+  .col-sm-2 a:hover{
+      color:#990000;
+      text-decoration: none;
+  }
+  .col-sm-8 {
+    top:14px;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .col-sm-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-sm-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .col-sm-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  clear:both;
+}
+.table a{
+    color:#cccccc;
+}
+.table a:hover{
+    text-decoration: none;
+    color:#990000;
+}
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+}
+.table-bordered {
+  width: 100%;
+}
+
+.table-bordered th{
+  padding:5px;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color:#333333
+}
+.table-bordered td {
+  border: 1px solid #dee2e6;
+  padding:5px;
+  font-size: 1.3rem;
+}
+.table-bordered tr{ 
+    text-align: left;
+}
+.table-bordered tr:nth-child(even){
+    text-align: right;
+}
+.table-bordered td input[type="button"]{
+    background-color:#333333;
+    color:#dedede;
+    border:1px groove #dedede;
+    margin:2px;
+}
+.table-bordered td input[type="button"]:hover{
+    background-color:#660000;
+}
+.w3{
+    opacity:0.2;
+    float:right;
+}
+#welcome{
+    font-size:200%;
+    margin-top: 5%;
+}
+#welcome a{
+    text-decoration: none;
+    color:#b50505;
+}
+#welcome a:hover{
+    color:#a6a5a5;
+}
+#welcome animation {
+  color:#b50505;
+  -webkit-animation-name: title;
+  -webkit-animation-duration: 5s;
+}
+@keyframes title {
+  0%   {color:red;}
+  25%  {color:#ff6600;}
+  50%  {color:#ffff33;}
+  75% {color:#ff6600;}
+  100% {color:#b50505;}
+}
+#cent{
+    font-size: 20pt;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #a6a5a5;
+}
+
+
+.psw{
+    width:90%;
+    margin:auto;
+}
+legend{
+    border: 2px groove #510707;
+    color:#dedede;
+    padding:5px;
+    background-color:#510707;
+    font-size:18pt;
+}
+fieldset{
+    width:40%;
+    margin:auto;
+    border:2px groove #510707;
+    background-color:#242424;
+    font:'Raleway';
+    font-size: 15pt;
+    font-weight: bold;
+    text-align:center;
+    margin-top:30px;
+    padding:7px;
+}
+fieldset a{
+    text-decoration: none;
+    color: #cccccc;
+}
+fieldset a:hover{
+    color:#990000;
+    text-decoration: none
+}
+input{
+    background-color:#dedede;
+    border:2px groove #510707;
+    margin:20px;
+}
+input[type="submit"]{
+    padding:5px;
+    margin:auto;
+    background-color:#510707;
+    font-size: 12pt;
+    color:#dedede;
+}
+.container-fluid #about{
+    width:60%;
+    margin:auto;
+    text-align: left;
+}
+
+#error{
+    color:red;
+    font-size: 80%;
+    margin-top:4%;
+}
+#ok{
+    color:green;
+    font-size: 12pt;
+    top:10px;
+}
